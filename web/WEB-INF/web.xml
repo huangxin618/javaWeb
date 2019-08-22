@@ -20,4 +20,28 @@
         <servlet-name>LoginServlet</servlet-name>
         <url-pattern>/Login</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>LoginUI</servlet-name>
+        <servlet-class>com.view.LoginUI</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginUI</servlet-name>
+        <url-pattern>/to_login</url-pattern>
+    </servlet-mapping>
+    <servlet>
+    <servlet-name>loginController</servlet-name>
+    <servlet-class>com.controller.LoginController</servlet-class>
+</servlet>
+    <servlet-mapping>
+        <servlet-name>loginController</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>loginUDS</servlet-name>
+        <servlet-class>com.view.LoginUDS</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>loginUDS</servlet-name>
+        <url-pattern>/to_login1</url-pattern>
+    </servlet-mapping>
 </web-app>
