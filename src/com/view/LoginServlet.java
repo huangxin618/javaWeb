@@ -1,4 +1,4 @@
-package com.Servlet;
+package com.view;
 
 
 import javax.servlet.ServletException;
