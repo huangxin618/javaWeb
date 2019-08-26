@@ -106,5 +106,6 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="mysql-connector-java-5.1.22-bin" level="project" />
+    <orderEntry type="library" name="lib" level="project" />
   </component>
 </module>

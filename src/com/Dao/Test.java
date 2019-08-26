@@ -9,8 +9,8 @@ import java.sql.*;
 public class Test {
     public static void main(String[] args) {
         try {
-            Class.forName("com.mysql.cj.jdbc.Driver");
-           Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sys?useSSL=false&serverTimezone=UTC","root","1234");
+            Class.forName("com.mysql.jdbc.Driver");
+           Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hx1998","root","root");
            Statement sta = con.createStatement();
            String sql = "select * from user";
            ResultSet set =  sta.executeQuery(sql);
